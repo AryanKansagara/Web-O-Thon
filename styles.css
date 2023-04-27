@@ -1,0 +1,43 @@
+
+.top-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    width: 50%;
+}
+
+.engagement-text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-engagement{
+    color: #7C96AB;
+}
+
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    box-shadow: inset 0 0 10px #ccc;
+  }
+  
+  .countdown span {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px #fff;
+    margin: 0 10px;
+  }
+
+.topup{
+    font-size: 200px;
+}

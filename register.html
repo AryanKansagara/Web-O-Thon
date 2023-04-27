@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+            color: #ad00f8;
+            background-color: #f3e8ff;
+        }
+        form {
+            font-size : 30px;
+            text-align: left;
+            background-color: #f3e8ff;
+            border : 2px solid black;
+            border-radius : 25px;
+            margin : 30px;
+            padding : 30px;
+        }
+        form input {
+            font-size: 30px;;
+            border : 2px solid black;
+            border-radius : 25px;
+        }
+        form textarea{
+            border : 2px solid black;
+            border-radius : 25px;
+            padding : 30px;
+        }
+        form table{
+            box-sizing: border-box;
+            padding-left: 450px;
+        }
+        form td{
+            padding : 5px;
+        }
+        form button{
+            font-size: 30px;
+            border : 2px solid black;
+            border-radius: 30px;
+            color: #7C96AB;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fname">First name :</label></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+<!-- <br><br> -->
+            <tr>
+                <td><label for="lname">Last name :</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+        <tr>
+            <td><label for="email">Email-Id :</label></td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="college_name">Enter your College Name : </label></td>
+            <td><input type="text" name="college_name" id="college_name"></td>
+        </tr>
+        <tr>
+            <td><label for="contact">Enter contact details : </label></td>
+            <td><input type="number" name="contact" id="contact"></td>
+        </tr>
+        <tr>
+            <td><label for="Address">Enter your Address : </label></td>
+            <td><textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter your address here"></textarea></td>
+        </tr>
+        <tr>
+            <td><button type="submit" onclick="">Submit</button></td>
+        </tr>
+    </form>
+</body>
+</html>
