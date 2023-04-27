@@ -17,6 +17,6 @@ function updateTimer() {
 
   if (totalSeconds < 0) {
     clearInterval();
-    alert('Time is up!');
+    alert("Let's go!");
   }
 }
